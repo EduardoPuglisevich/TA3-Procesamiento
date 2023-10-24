@@ -18,7 +18,7 @@ def main():
 def predict():
     try:
         img_data = request.form.get('myImage').replace("data:image/png;base64,", "")
-        with tempfile.NamedTemporaryFile(delete=False, mode="w+b", suffix='.png', dir=str('prediccion')) as fh:
+        with tempfile.NamedTemporaryFile(delete=False, mode="w+b", suffix='.png', dir=str('predicciones')) as fh:
             fh.write(base64.b64decode(img_data))
             tmp_file_path = fh.name
         imagen = io.imread(tmp_file_path)
