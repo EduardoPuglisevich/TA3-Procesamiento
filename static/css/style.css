@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/calamar.jpg);
+}
+
+
+.button{
+    margin: 10px;
+}
+h1{
+    padding: 15px;
+}
+.contenedor {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrar{
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.myclassforh1{
+    text-align: center;
+    color: black;
+    -webkit-text-stroke: 0.8px red;
+    width: 75vw;    
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background:rgb(193, 234, 255);
+}
+#img-upc{
+    width:3rem;
+    height:3rem;
+}
