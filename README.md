@@ -12,7 +12,7 @@
     <a href=""><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <strong>Docente</strong>
+    <strong>Docente: Peter Jonathan Montalvo Garcia</strong>
     <br/>
     
   </p>
